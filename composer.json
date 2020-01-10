@@ -1,0 +1,21 @@
+{
+  "name": "passbolt/ldap_cert_util",
+  "description": "Passbolt utility to bundle the different components of a ldaps certificate",
+  "type": "project",
+  "license": "AGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Passbolt Team",
+      "homepage": "https://www.passbolt.com/credits"
+    }
+  ],
+  "support": {
+    "bugs": "https://github.com/passbolt/passbolt/issues",
+    "help": "https://www.passbolt.com/help",
+    "source": "https://github.com/passbolt/passbolt"
+  },
+  "require": {
+    "php": ">=7.0",
+    "ldaptools/ldaptools": "^0.25.2"
+  }
+}
