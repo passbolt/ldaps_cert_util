@@ -7,7 +7,12 @@ On your passbolt server (or any other server with a ldaps certificate issue)
 
 ```shell
 ./composer.phar install
-php ./get_certificate.php
+```
+
+Edit the php script configuration with your host name. Replace `host.yourldapdomain.com` in the line `$ldapServerHost = 'host.yourldapdomain.com';`
+
+```shell
+./nano ./get_certificate.php
 ```
 
 At this point, the command should display a bundle certificate.
